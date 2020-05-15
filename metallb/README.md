@@ -16,7 +16,7 @@ kubectl create secret generic -n metallb-system memberlist --from-literal=secret
 
 STEP 3:
 
-https://github.com/carterfieldslabs/k8s-init/blob/master/metallb-config.yaml
+kubectl apply -f https://raw.githubusercontent.com/carterfieldslabs/k8s/master/metallb/metallb-config.yaml
 
 or
 
